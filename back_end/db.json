@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "carlitosmunk",
+      "password": "carlitosmunk",
+      "mail":"carlitosmunk@gmail.com",
+      "recipies": [
+        { "id":1,
+          "title": "Pollo a la cerverza",
+          "description": "pollo a la cerveza para ocaciones rapidas y especiales",
+          "image": "",
+          "ingrediets": [
+            "pollo",
+            "cerveza",
+            "sal",
+            "pimienta",
+            "cebolla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "saraEscobar",
+      "password": "lacreaciondelarte",
+      "mail":"saraEscobar@gmail.com",
+      "recipies": [
+        { "id":1,
+          "title": "Sorbete de limón",
+          "description": "bebida perfecta para dias de mucho sol o barbacoas",
+          "image": "",
+          "ingrediets": [
+            "4 limones",
+            "1 litro de agua",
+            "1 kg de azúcar",
+            "hielo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "username": "cheems",
+      "password": "cheemsito",
+      "recipies": [
+        { "id":1,
+          "title": "masmelos con caramelo y chocolate",
+          "description": "postre unico de la región",
+          "image": "",
+          "ingrediets": [
+            "masmelos",
+            "barras de chocolate",
+            "azucar",
+            "50ml de agua"
+          ]
+        }
+      ]
+    }
+  ]
+}
