@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/rollos1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nav {
+  background-color: rgb(170, 116, 0);
+  font-family: "Inclusive Sans", sans-serif;
+}
+.nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.nav li {
+  list-style-type: none;
+}
+.nav a {
+  position: relative;
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.nav a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background: beige;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.nav a:hover:before {
+  width: 100%;
+}
+
+#name {
+  font-size: 22px;
+}
+
+.contenedor_tarjetas {
+  background-color: aliceblue;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cards {
+  margin: 20px;
+  min-height: 300px;
+  padding: 20px;
+  position: relative;
+  background-color: rgb(71, 56, 43);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}/*# sourceMappingURL=inside.css.map */
