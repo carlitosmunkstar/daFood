@@ -45,6 +45,7 @@
       "id": 3,
       "username": "cheems",
       "password": "cheemsito",
+      "email": "cheemsito@gmail.com",
       "recipies": [
         {
           "id": 1,
@@ -65,18 +66,6 @@
       "username": "carlitosmunkstar",
       "password": "holapapu",
       "id": 4
-    },
-    {
-      "email": "camobaan@gmail.com",
-      "username": "carlitosmunkstar",
-      "password": "12341",
-      "id": 5
-    },
-    {
-      "email": "camobaan2002@gmail.com",
-      "username": "otrousuario",
-      "password": "123",
-      "id": 6
     }
   ]
 }
