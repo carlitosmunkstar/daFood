@@ -26,22 +26,27 @@
             <div class="contenedor__login-register">
                 <form action="" class="formulario__login" >
                     <h2>Iniciar sesión</h2>
-                    <input type="text" placeholder="nombre de usuario" />
-                    <input type="password" placeholder="constraseña" />
+                    <span id="error_login" style="display: none;">llena bien los campos</span>
+                    <input type="text" name="username" placeholder="nombre de usuario" />
+                    <input type="password" name="password" placeholder="constraseña" />
                     <button>Entrar</button>
                 </form>
                 <form action="" class="formulario__register" >
                     <h2>Registrarse</h2>
+                    <span id="error_register_campos" style="display: none;">llena todos los campos</span>
+                    <input type="text" name="email" placeholder="correo electronico">
+                    <span id="error_register_email" style="display: none;">tiene que ser correo electronico</span>
                     <input type="text" name="username" placeholder="nombre de usuario">
-                    <input type="password" name="password" ="contraseña">
+                    <span id="error_register_username" style="display: none;">nombre demasiado largo</span>
+                    <input type="password" name="password" placeholder="constraseña">
                     <button>Registrarse</button>
                 </form>
             </div>
         </div>
     </main>
-
+    <script type="module" src="./js/services/validation.mjs"></script>
     <script src="./js/animation.js"></script>
-    <script src="./js/register.js"></script>
+    <script type="module" src="./js/register.mjs"></script>
 </body>
 
 </html>

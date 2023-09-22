@@ -4,9 +4,10 @@
       "id": 1,
       "username": "carlitosmunk",
       "password": "carlitosmunk",
-      "mail":"carlitosmunk@gmail.com",
+      "mail": "carlitosmunk@gmail.com",
       "recipies": [
-        { "id":1,
+        {
+          "id": 1,
           "title": "Pollo a la cerverza",
           "description": "pollo a la cerveza para ocaciones rapidas y especiales",
           "image": "",
@@ -24,9 +25,10 @@
       "id": 2,
       "username": "saraEscobar",
       "password": "lacreaciondelarte",
-      "mail":"saraEscobar@gmail.com",
+      "mail": "saraEscobar@gmail.com",
       "recipies": [
-        { "id":1,
+        {
+          "id": 1,
           "title": "Sorbete de limón",
           "description": "bebida perfecta para dias de mucho sol o barbacoas",
           "image": "",
@@ -44,7 +46,8 @@
       "username": "cheems",
       "password": "cheemsito",
       "recipies": [
-        { "id":1,
+        {
+          "id": 1,
           "title": "masmelos con caramelo y chocolate",
           "description": "postre unico de la región",
           "image": "",
@@ -56,6 +59,24 @@
           ]
         }
       ]
+    },
+    {
+      "email": "camobaan@gmail.com",
+      "username": "carlitosmunkstar",
+      "password": "holapapu",
+      "id": 4
+    },
+    {
+      "email": "camobaan@gmail.com",
+      "username": "carlitosmunkstar",
+      "password": "12341",
+      "id": 5
+    },
+    {
+      "email": "camobaan2002@gmail.com",
+      "username": "otrousuario",
+      "password": "123",
+      "id": 6
     }
   ]
 }
